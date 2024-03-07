@@ -1,13 +1,13 @@
-import { useState } from 'react'
 import './App.css'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './Home'
-import About from './About';
-import Products from './Products';
+import Home from './pages/Home'
+import About from './pages/About';
+import Products from './pages/Products';
 import Root from './Root';
+import Category from './pages/Category';
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
         { path: "/", element: <Home /> },
         { path: "/about",  element: <About/> },
         { path: "/products", element: <Products/> },
+        { path: "/products/:category", element: <Category/> },
       ]
     },
   ]);
