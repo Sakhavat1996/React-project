@@ -1,4 +1,6 @@
-import myImage from './assets/company.png';
+import myImage from '../assets/company.png';
+
+
 export default function Home() {
     return (
         <>

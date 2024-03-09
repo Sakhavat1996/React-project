@@ -1,23 +1,8 @@
-.active{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    background-color: rgb(73, 136, 139);
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 25px;
-}
-.link{
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-    font-size: 25px;
-}
 .link-container{
     display: flex;
     gap: 10px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .company{
     height: 200px;
@@ -26,3 +11,19 @@
 .text{
     width: 500px;
 }
+.category{
+    color: rgb(73, 136, 139);
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.products-main-container{
+    display: flex;
+    gap: 20px;
+}
+.links-container{
+    display: grid;
+    gap: 10px;
+    height: max-content;
+}
+
