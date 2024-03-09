@@ -8,6 +8,8 @@ import About from './pages/About';
 import Products from './pages/Products';
 import Root from './Root';
 import Category from './pages/Category';
+import Registration from './components/registration/Registration';
+import Login from './components/login/Login';
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         { path: "/about",  element: <About/> },
         { path: "/products", element: <Products/> },
         { path: "/products/:category", element: <Category/> },
+        { path: "/registration", element: <Registration/>},
+        { path: "/login", element: <Login/>},
       ]
     },
   ]);
